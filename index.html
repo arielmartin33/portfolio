@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="encabezado">
+    <nav class="navegacion">
+    <a class="navegacion__enlace" href="#presentacion">
+        <h2 class="navegacion__titulo">informatorio</h2>
+    </a>
+    <ul class="enlaces">
+        <li class="enlaces_item">
+            <a class="enlaces__enlace" href="#presentacion">Inicio</a>
+        </li>
+        <li class="enlaces__item">
+            <a class="enlaces__enlace" href="#sobre-mi">Sobre mi</a>
+        </li>
+        <li class="enlaces_item">
+            <a class="enlaces__enlace" href="#proyectos">Proyectos</a>
+        </li>
+    </ul>
+    </nav>
+    </header>
+    <main class="principal">
+        <section class="presentacion" id="presentacion">
+            <div class="presentacion__contenedor_info">
+                <h1 class="presentacion__titulo">Soy Desarrollador</h1>
+                <p class="presentacion__parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti porro earum minus quis perspiciatis fugiat?</p>
+            </div>
+            <div class="presentacion__contenedor_botones">
+                <a href="#sobre-mi" class="boton" role="button">Sobre mi</a>
+                <a href="./assets/docs/cv.pdf" target="_blank" class="boton boton_oscuro" role="button">Descargar CV</a>
+            </div>
+        </section>
+        <article class="articulo sobre_mi" id="sobre-mi">
+            <h2 class="articulo__titulo">Un poco sobre mi</h2>
+            <div class="articulo__contenedor_descripciones">
+                <section class="seccion_descripcion">
+                    <div class="seccion_descripcion__porta_retrato">
+                        <img src="./assets/images/profile/enlaoficina.png" alt="foto trabajando en la oficina" title="trabajando en la oficina" class="seccion_descripcion__imagen">
+                    </div>
+                    <div class="seccion_descripcion__info scroll_fino scroll_gris" aria-label="descripcion personal">
+                        <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                            Mi Historia
+                        </h3>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi Historia" aria-describedby="mi_historia_titulo">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, perspiciatis.
+                        </p>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi Historia" aria-describedby="mi_historia_titulo">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, perspiciatis.
+                        </p>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi Historia" aria-describedby="mi_historia_titulo">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, perspiciatis.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="seccion_descripcion">
+                    <div class="seccion_descripcion__info scroll_fino scroll_gris" aria-label="descripcion personal">
+                        <h3 class="seccion_descripcion__titulo" id="mis_hobbies_titulo">
+                            Mis Hobbies
+                        </h3>
+                        <p class="seccion_descripcion__parrafo" 
+                        aria-label="Detalle de mis hobbies" 
+                        aria-describedby="mis_hobbies_titulo">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam magnam veniam ratione. Quasi saepe, quo cupiditate ut qui commodi vel.
+                        </p>
+                        <p class="seccion_descripcion__parrafo" 
+                        aria-label="Detalle de mis hobbies" 
+                        aria-describedby="mis_hobbies_titulo">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum optio quaerat iure numquam doloribus dolores ipsa facere quis minima dolorum.
+                        </p>
+                        <p class="seccion_descripcion__parrafo" 
+                        aria-label="Detalle de mis hobbies" 
+                        aria-describedby="mis_hobbies_titulo">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum optio quaerat iure numquam doloribus dolores ipsa facere quis minima dolorum.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </article>
+        <article class="articulo proyectos" id="proyectos">
+            <h2 class="articulo__titulo">Mis proyectos</h2>
+            <div class="contenedor_tarjetas_grid">
+                <article class="tarjeta" aria-label="presentacion de proyecto personal">
+                    <img class="tarjeta__imagen" src="./assets/images/proyecto.png" alt="imagen del proyecto" title="proyecto 1">
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo_proyecto_1">Titulo</h3>
+                        <span class="tarjeta_divisor"></span>
+                        <p class="tarjeta__parrafo scroll scroll_fino" aria-label="descripcion de proyecto personal" aria-describedby="titulo_proyecto_1">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam hic magnam dolorum? Dolore impedit nihil eius est possimus quisquam ipsam.
+                        </p>
+                        <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+                    </div>
+                </article>
+                <article class="tarjeta" aria-label="presentacion de proyecto personal">
+                    <img class="tarjeta__imagen" src="./assets/images/proyecto1.png" alt="imagen del proyecto" title="proyecto 2">
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo_proyecto_2">Titulo</h3>
+                        <span class="tarjeta_divisor"></span>
+                        <p class="tarjeta__parrafo scroll scroll_fino" aria-label="descripcion de proyecto personal" aria-describedby="titulo_proyecto_2">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam hic magnam dolorum? Dolore impedit nihil eius est possimus quisquam ipsam.
+                        </p>
+                        <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+                    </div>
+                </article>
+                <article class="tarjeta" aria-label="presentacion de proyecto personal">
+                    <img class="tarjeta__imagen" src="./assets/images/proyecto1.png" alt="imagen del proyecto" title="proyecto 3">
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo_proyecto_3">Titulo</h3>
+                        <span class="tarjeta_divisor"></span>
+                        <p class="tarjeta__parrafo scroll scroll_fino" aria-label="descripcion de proyecto personal" aria-describedby="titulo_proyecto_3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam hic magnam dolorum? Dolore impedit nihil eius est possimus quisquam ipsam.
+                        </p>
+                        <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+                    </div>
+                </article>
+                <article class="tarjeta" aria-label="presentacion de proyecto personal">
+                    <img class="tarjeta__imagen" src="./assets/images/proyecto1.png" alt="imagen del proyecto" title="proyecto 4">
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo_proyecto_4">Titulo</h3>
+                        <span class="tarjeta_divisor"></span>
+                        <p class="tarjeta__parrafo scroll scroll_fino" aria-label="descripcion de proyecto personal" aria-describedby="titulo_proyecto_4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam hic magnam dolorum? Dolore impedit nihil eius est possimus quisquam ipsam.
+                        </p>
+                        <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+                    </div>
+                </article>
+                <article class="tarjeta" aria-label="presentacion de proyecto personal">
+                    <img class="tarjeta__imagen" src="./assets/images/proyecto1.png" alt="imagen del proyecto" title="proyecto 5">
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo_proyecto_5">Titulo</h3>
+                        <span class="tarjeta_divisor"></span>
+                        <p class="tarjeta__parrafo scroll scroll_fino" aria-label="descripcion de proyecto personal" aria-describedby="titulo_proyecto_5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam hic magnam dolorum? Dolore impedit nihil eius est possimus quisquam ipsam.
+                        </p>
+                        <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+                    </div>
+                </article>
+                <article class="tarjeta" aria-label="presentacion de proyecto personal">
+                    <img class="tarjeta__imagen" src="./assets/images/proyecto1.png" alt="imagen del proyecto" title="proyecto 6">
+                    <div class="tarjeta__contenido">
+                        <h3 class="tarjeta__titulo" id="titulo_proyecto_6">Titulo</h3>
+                        <span class="tarjeta_divisor"></span>
+                        <p class="tarjeta__parrafo scroll scroll_fino" aria-label="descripcion de proyecto personal" aria-describedby="titulo_proyecto_6">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam hic magnam dolorum? Dolore impedit nihil eius est possimus quisquam ipsam.
+                        </p>
+                        <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a>
+                    </div>
+                </article>
+            </div>
+        </article>
+    </main>
+
+    <footer class="pie_de_pagina" role="contentinfo">
+        <div class="pie_de_pagina__columna">
+            <h4 class="pie_de_pagina__titulo_columna">Mis Redes</h4>
+            <ul class="enlaces enalces_redes">
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces__enlace_footer" href="#" target="_blank">
+                        <img src="./assets/images/logos/github.png" alt="logo de github" title="github">
+                    </a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces__enlace_footer" href="#" target="_blank">
+                        <img src="./assets/images/logos/github.png" alt="logo de github" title="github">
+                    </a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces__enlace_footer" href="#" target="_blank">
+                        <img src="./assets/images/logos/github.png" alt="logo de github" title="github">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="pie_de_pagina__columna">
+            <h4 class="pie_de_pagina__titulo_columna">Contactame</h4>
+            <ul class="enlaces enlaces_vertical">
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces__enlace_footer" href="mailto:mail@mail.com" target="_blank">Mail: mail@mail.com</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="pie_de_pagina__columna" role="navigation">
+            <h4 class="pie_de_pagina__titulo_columna">Secciones</h4>
+            <ul class="enlaces enlaces_vertical">
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces__enlace_footer" href="#presentacion">Inicio</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces__enlace_footer" href="#sobre-mi">Sobre mi</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces__enlace_footer" href="#proyectos">Proyectos</a>
+                </li>
+            </ul>
+        </div>
+        <div class="pie_de_pagina__copyright">
+            <p>@Copyright</p>
+        </div>
+    </footer>
+</body>
+</html>
